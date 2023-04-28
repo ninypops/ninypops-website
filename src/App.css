@@ -1,18 +1,93 @@
-/* .App {
-  text-align: center;
-} */
+/* Projects */
+.wrapper {
+  margin: 1rem 1rem;
+}
 
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media only screen and (min-width: 900px) {
+  .wrapper {
+    max-width: 1080px;
+    margin: 1rem auto;
   }
-} */
 
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .projects--entity {
+    width: calc(33.3% - 1.5em);
+    height: 250px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+.projects--entity {
+  background: white;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  min-height: 120px;
+  margin: .5rem 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.projects--entity--wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width: 900px) {
+  .projects--entity--wrapper {
+    flex-flow: row wrap;
   }
-} */
+}
+
+.projects--entity > p {
+  margin-bottom: .25rem;
+}
+
+.projects--entity:hover {
+  cursor: pointer;
+}
+
+/* Blog */
+
+
+/* Type */
+h2 {
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.color-white {
+  color: #ffffff;
+}
+
+.color-black {
+  color: #161616;
+}
+
+.color-grey {
+  color: #5B5B5B;
+}
+
+.link-to-all {
+  /* css styles here */
+}
+
+a {
+  color: #81F36F;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3B8C2E;
+  transition: .3s;
+}
+
+p.color-white {
+  font-size: .8rem;
+  margin: .5rem 0;
+}
+
+p.projects-entity-type {
+  font-size: .8rem;
+  margin: .5rem 0;
+}

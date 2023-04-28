@@ -12,13 +12,13 @@ import Footer from './components/footer';
 
 function App() {
   return (
-    <wrapper className="ninypops--wrapper">
-      <Header className="ninypops--header" />
-      <Projects className="ninypops--projects" />
-      <Blog className="ninypops--blog" />
-      <Travel className="ninypops--travel" />
-      <Footer className="ninypops--footer" />
-    </wrapper>
+    <div className="wrapper">
+      <Header className="header" />
+      <Projects className="projects" />
+      <Blog className="blog" />
+      <Travel className="travel" />
+      <Footer className="footer" />
+    </div>
   );
 }
 
